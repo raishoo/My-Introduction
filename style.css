@@ -1,0 +1,52 @@
+h1{
+    font-family:'Pixelify Sans',sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+
+/*parenthesis*/
+}
+#p1{
+    font-family:'Josephin', sans-serif;
+    font-size: 20px;
+    color: white;
+    border: 1px: double;
+    background: black;
+    height: fit-content;
+
+/*center parenthesis*/
+}
+.parenthesis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#p2 {
+    text-align: left;
+    font-family:'Josephin', sans-serif;
+    color: white;
+}
+
+/*image size*/
+img { 
+    height: 300px;
+	width: 250px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image:url(./raiden.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: unset;
+}
+
+.center-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
